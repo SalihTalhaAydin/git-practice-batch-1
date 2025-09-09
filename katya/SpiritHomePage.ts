@@ -6,4 +6,5 @@ class SpiritHomePage{
     loginMessage():void{
         console.log('Loged-in succesfully')
     }
+    
 }
