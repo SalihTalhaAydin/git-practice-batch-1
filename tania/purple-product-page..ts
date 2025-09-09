@@ -1,9 +1,3 @@
-// 8. 📱 Purple Product Page - Tanya
-// File: purple-product-page.ts
-// Branch: add-product-page
-// Variables: productTitle: string = ".product-name", priceDisplay: string = ".price", reviewsSection: string = ".reviews"
-// Methods: getProductInfo(), readCustomerReviews()
-
 class PurpleProduct {
     productTitle: string = "Awesome Laptop";
     priceDisplay: string = "$999";
