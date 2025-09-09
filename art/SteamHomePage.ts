@@ -1,5 +1,4 @@
 class SteamHomePage {
-
     expectedBalanceMessage = 'Add Funds'
     expectedAmountMessage = 100
 
@@ -8,5 +7,4 @@ class SteamHomePage {
             + ' button and choosing ' + this.expectedAmountMessage 
             + '$ option')
     }
-
 }
