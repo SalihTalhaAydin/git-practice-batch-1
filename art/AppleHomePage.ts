@@ -4,9 +4,7 @@ class AppleHomePage {
     expectedButtonMessage = "Add to calendar"
 
     pressAddToCalendarButton(): void {
-
         console.log('Pressing "' + this.expectedButtonMessage + '" button...')
-
     }
 
 }
