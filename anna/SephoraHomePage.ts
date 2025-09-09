@@ -1,5 +1,5 @@
-class SephoraHomnPage {
-    expectedMessage = "New week, new yoy, Anna."
+class SephoraHomePage {
+    expectedMessage = "New week, new you, Anna."
 
     chekcout(): void{
         console.log('You can checkout now')
