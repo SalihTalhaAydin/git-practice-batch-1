@@ -1,10 +1,13 @@
 class SephoraHomePage {
-    expectedMessage = "New week, new you, Anna."
+    expectedMessage: string = "New week, new you, Anna."
+    maxItems: number = 10
 
-    chekcout(): void{
-        console.log('You can checkout now')
-    }
-    addToBox(): void{
-        console.log('Add new item to the box')
+    checkout(): void {
+        console.log("You can checkout now")
     }
 }
+
+let  home = new SephoraHomePage()
+console.log(home.expectedMessage)
+console.log(home.maxItems)
+home.checkout()
