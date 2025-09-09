@@ -3,4 +3,5 @@ class AppleWebSite{
     navigateToHomePage(): void{
         console.log("Join Iphone 16 presentation")
     }
+    
 }
