@@ -1,5 +1,7 @@
 class CarPartsTestPAge{
     myCartAddedStuff:string='Bumper'
     suspensionPartsPage:string='Front suspension'
-    consol.log('In my cart i have- ' myCartAddedStuff)
+    cartString():void{
+    console.log('In my cart i have- ')
+    }
 }
