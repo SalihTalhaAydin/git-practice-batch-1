@@ -6,3 +6,4 @@ class targetHomePage {
     return cartItems;
   }
 }
+
