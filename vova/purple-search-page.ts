@@ -11,5 +11,4 @@ class PurpleSearchPage{
      clickSearchButton():void{
         console.log('Push the button')
      }
-
 }
