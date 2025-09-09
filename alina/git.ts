@@ -1,3 +1,6 @@
 class GitPractise { 
-    gitMessage="welcome here"
+    gitMessage = "welcome here"
+    navigatoToPage(): void { 
+        console.log("You are here");
+    }
 }
