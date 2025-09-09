@@ -3,8 +3,7 @@ class SpiritHomePage{
     homePageTitle = 'More Places - More Faces'
     numberOfPoints = 13567
 
-    login():void{
+    loginMessage():void{
         console.log('Loged-in succesfully')
     }
-
 }
