@@ -1,5 +1,4 @@
 class StarbucksMenuPage {
-
     expectedTitle = 'Menu'
 
     pressHotCoffeePicture(): void {
