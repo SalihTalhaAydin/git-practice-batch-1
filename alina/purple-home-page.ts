@@ -1,4 +1,3 @@
-
 class PurpleHomepagePage {
     heroTitle = "The Purple Mattress";
     shopNowButton: string = "#shop-now-btn";
