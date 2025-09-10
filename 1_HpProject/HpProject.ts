@@ -1,7 +1,7 @@
-
-class HpProject {
-    titlePage: string ='hello hp'
-    selectPaymentMethod():void {
-        console.log('Select payment methods')
-    }
+class HPHomePage {
+  expectedMessage = "Shop the deals";
+  recommendedDealForYou = "50% off HP Laptop";
+  goToSearchString(): void {
+    console.log("Search ot ask a question");
+  }
 }
