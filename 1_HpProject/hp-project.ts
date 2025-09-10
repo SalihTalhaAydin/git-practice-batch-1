@@ -1,0 +1,3 @@
+class HPPROJECT { 
+    expectedMessage = "Welcome"
+}
