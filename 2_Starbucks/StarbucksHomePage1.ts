@@ -1,7 +1,5 @@
 
-
-
-class Starbucks {
+class Starbucks1{
   expectedMessage = "Hot chocolate,lemonade and more";
   recommendedDealForYou = "Enjoy coffee";
   goToSearchString(): void {
