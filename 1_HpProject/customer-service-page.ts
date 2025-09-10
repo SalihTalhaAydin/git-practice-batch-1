@@ -10,5 +10,4 @@ class CustomerServicePage {
     pressRequestAReturnButton(): void {
         console.log('Pressing Request a return button...')
     }
-
 }
