@@ -1,0 +1,7 @@
+class StarbucksDeals{
+    mainMessage = "Get 60 bonus start"
+    goToDetails(): void { 
+        console.log(" A bear nostalgic iced chai...  Order now")
+    }
+}
+
