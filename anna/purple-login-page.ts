@@ -1,25 +1,20 @@
-// Purple Login Page - Anna
-// File: purple-login-page.ts
-// Branch: add-login-page
-// Variables: emailField: string = "#email", passwordField: string = "#password", loginButton: string = ".login-btn"
-// Methods: enterCredentials(email: string, password: string), clickLogin()
 
 
-class PurpleLoginPage{
-    emailField: string = "#email"
-    passwordField: string = "#password"
-    loginButton: string = ".login-btn"
+class PurpleProductPage {
+    productTitle: string = ".product-title"
+    priceTag: string = ".price"
+    addToCartButton: string = ".add-to-cart"
 
-    enterCredentials(email: string, password: string): void{
-        console.log("Entering email",this.emailField)
-        console.log("entering paqssword",this.passwordField)
+    viewProduct(): void {
+        console.log("Viewing product title:", this.productTitle)
+        console.log("Viewing price:", this.priceTag)
     }
-    clickLogin(): void {
-        console.log('Clicking login button:',this.loginButton)
+
+    addToCart(): void {
+        console.log("Clicking add to cart button:", this.addToCartButton)
     }
 }
-    
-    
-let loginPage = new PurpleLoginPage()
-loginPage.enterCredentials("anna@example.com", "securePass123")
-loginPage.clickLogin()
+
+let productPage = new PurpleProductPage()
+productPage.viewProduct()
+productPage.addToCart()
