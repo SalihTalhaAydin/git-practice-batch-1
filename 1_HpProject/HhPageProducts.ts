@@ -12,6 +12,7 @@ class GreenProduct {
             console.log("Product info not available.");
         }
     }
+    
 
     readCustomerReviews() {
         if (this.reviewsSection) {
